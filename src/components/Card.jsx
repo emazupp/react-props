@@ -1,6 +1,6 @@
 import Button from "./Button/Button";
 
-export default function Card() {
+export default function Card({ title, image, desciption, tags }) {
   return (
     <div className="card">
       <div className="card-img">
