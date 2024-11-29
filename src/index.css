@@ -26,10 +26,15 @@ body {
 .card {
   border-radius: 20px;
   background-color: white;
+  max-width: 600px;
 }
 
 .card-container {
-  width: 600px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
 .card-img img {
