@@ -1,11 +1,14 @@
 import Card from "./Card";
 import { posts } from "../data/posts";
+import Tags from "./Tags";
+
 const publishedPost = posts.filter((post) => post.published);
 
 export default function Main() {
   return (
     <>
       <div className="container main">
+        <Tags />
         <div className="card-container">
           {publishedPost.map((post) => {
             return (

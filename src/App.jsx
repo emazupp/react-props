@@ -12,13 +12,11 @@ Buon lavoro! */
 import Header from "./components/Header/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer/Footer";
-import Tags from "./components/Tags";
 
 function App() {
   return (
     <>
       <Header />
-      <Tags />
       <Main />
       <Footer />
     </>
