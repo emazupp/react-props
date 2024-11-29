@@ -1,6 +1,6 @@
 import Card from "./Card";
 import { posts } from "../data/posts";
-import Tags from "./Tags";
+import Tags from "./Tags/Tags";
 
 const publishedPost = posts.filter((post) => post.published);
 

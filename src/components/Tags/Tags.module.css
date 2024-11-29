@@ -1,0 +1,11 @@
+.tagsContainer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
