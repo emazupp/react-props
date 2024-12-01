@@ -12,7 +12,7 @@ export default function Tags() {
     <section className={style.tagsContainer}>
       {postsTags.map((tag, index) => {
         return (
-          <span key={index} className={`${style.tag} ${tag}`}>
+          <span key={index} className={`tag ${tag}`}>
             {tag}
           </span>
         );
