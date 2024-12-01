@@ -32,16 +32,20 @@ body {
 /* tags */
 
 .html {
-  background-color: rgb(202, 123, 255);
+  background-color: #edd4ff;
+  color: #901ed2;
 }
 .css {
-  background-color: rgb(255, 98, 98);
+  background-color: #ffc7c7;
+  color: #c11414;
 }
 .js {
-  background-color: rgb(255, 253, 122);
+  background-color: #fffd7a;
+  color: #a27206;
 }
 .php {
-  background-color: rgb(67, 64, 247);
+  background-color: #c1d0ff;
+  color: #2e28da;
 }
 
 /* cards */
@@ -85,9 +89,10 @@ body {
 
 .tag {
   border: none;
-  padding: 5px 15px;
+  padding: 7px 20px;
   margin-left: 15px;
-  border-radius: 10px;
+  border-radius: 20px;
+  font-size: 1.1rem;
 }
 
 /* footer */
